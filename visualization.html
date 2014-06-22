@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://noahveltman.com/nflplayers/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=480">
+  <link rel="stylesheet" href="./index_files/css" type="text/css">
+  <link rel="stylesheet" href="./index_files/jquery.nouislider.css" type="text/css">
+  <title>MLB: Team Stolen Bases vs. Home Runs Over Time</title>
+  <style type="text/css"></style></head>
+  <body>
+    <div class="container-outer">
+      <div class="container">
+        <div class="header">
+          <div class="title">
+            MLB: Team Stolen Bases vs. Home Runs Over Time
+          </div>
+          <div class="credits">By Eric Shen, template from <a href="http://twitter.com/veltman">Noah Veltman</a></div>
+          <div class="description">
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="controls"><div id="play">PLAY</div><div id="slider"></div><div class="clear"></div></div>
+        <div class="faq">
+          <div class="question">What is this visualization?</div>
+          <div class="answer">This visualization shows the distribution of teams based on their total stolen bases and total home runs for a season from 1900-2013. Each of the buckets covers a range of 20 for both stolen bases and home runs. For instance, if the San Francisco Giants had 121 home runs and 149 stolen bases, they would fall in the 120 - 140 Home Runs and 140 - 160 Stolen Bases bucket. Each of these buckets shows the number of teams that fell within that Home Run and Stolen Base range for that specific season.</div>
+          <div class="question">What are some of the trends over time?</div>
+          <div class="answer">From 1900 - 1920, there were very few home runs but a very high number of stolen bases for teams. This corresponds to the time period in baseball known as the <a href="http://en.wikipedia.org/wiki/Dead-ball_era">Dead-Ball Era</a>, when games were extremely low scoring and there were very few runs. From 1920 - 1980, the number of stolen bases drastically declined and the number of home runs steadily increased, as power hitting became more prevalent throughout the league. The number of stolen bases increased again during the 1980s, when the number of runs scored in Major League Baseball drastically decreased, thus increasing the significance of small ball. Since 1990, however, the number of stolen bases for teams has once again declined, while the number of home runs has continued to increase.</div>
+          <div class="question">What was your inspiration for making this visualization?</div>
+          <div class="answer">When keeping up with Hacker News, I came across this 
+              <a href="http://noahveltman.com/nflplayers/">visualization</a>
+               by <a href="http://noahveltman.com">Noah Veltman</a>, 
+               comparing height and weight of NFL players over time.
+               This visualization inspired me to come up with some visualization of my own. 
+               As an ardent baseball fan, one trend that I have always heard 
+               about was whether the stolen base was losing significance because of the emphasis on hitting 
+               homeruns. So, I decided to make a visualization for stolen bases verses homeruns 
+               over time, using Noah's template.
+          </div>
+          <div class="question">Where is the data from?</div>
+          <div class="answer">The data is taken from the <a href="http://mlb.mlb.com/stats/">MLB Website</a>.</div>
+        </div>
+      </div>
+    </div>
+    <script src="./index_files/d3.v3.min.js"></script>
+    <script src="./index_files/jquery.min.js"></script>
+    <script src="./index_files/jquery.nouislider.min.js"></script>
+    <script src="visualization.js"></script>
+  </body>
+</html>
