@@ -235,9 +235,9 @@ d3.json("data.json",function(err,bins){
 
     function doCellSizing() {
       if (window.innerWidth > 700) {
-        return 15;
+        return 25;
       }
-      return 15;
+      return 20;
     }
 
 });

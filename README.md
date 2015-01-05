@@ -1,7 +1,7 @@
 baseball-stat-visualization
 ===========================
 
-Live Demo : <a href="http://ericshen.com/projects/baseball-visualization/visualization.php">Team Stolen Bases vs. Home Runs Over Time</a>
+Live Demo : <a href="http://erictshen.github.io/baseball-stat-visualization/">Team Stolen Bases vs. Home Runs Over Time</a>
 
 When keeping up with Hacker News, I came across this <a href="http://noahveltman.com/nflplayers/">visualization</a> by <a href="http://noahveltman.com">Noah Veltman</a>, comparing height and weight of NFL players over time. This visualization inspired me to come up with some visualization of my own. As an ardent baseball fan, one trend that I have always heard about was whether the stolen base was losing significance because of the emphasis on hitting homeruns. So, I decided to make a visualization for stolen bases verses homeruns over time, using Noah's template.
 
